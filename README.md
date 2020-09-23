@@ -20,4 +20,4 @@ In most of the algorithms you need to input the function f(x), or the equation s
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## License
-The project is under the [GNU][https://www.gnu.org/licenses/gpl-3.0.en.html] license
+The project is under the [GNU](https://www.gnu.org/licenses/gpl-3.0.en.html) license

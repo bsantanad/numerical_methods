@@ -1,11 +1,11 @@
 # Numerical Methods 
 
-A repository with numerical methods algoritms implemented in C. The algorithms are based in a class I'm taking.
+A repository with numerical methods algorithms implemented in C. The algorithms are based in a class I'm taking.
 The algorithms may need some work, so feel free to upgrade them :)
 
 ## Installation
 
-They are a buch of C files, so just download the one you want, and use your favorite compiler.
+They are a bunch of C files, so just download the one you want, and use your favorite compiler.
 
 ```bash
 $ gcc newton_rasp.c -o newton_r -lm

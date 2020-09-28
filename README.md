@@ -1,6 +1,6 @@
 # Numerical Methods 
 
-A repository with numerical methods algorithms implemented in C. The algorithms are based in a class I'm taking.
+A repository with numerical methods algorithms implemented in C and python. The algorithms are based in a class I'm taking.
 The algorithms may need some work, so feel free to upgrade them :)
 
 ## Installation
@@ -8,9 +8,15 @@ The algorithms may need some work, so feel free to upgrade them :)
 They are a bunch of C files, so just download the one you want, and use your favorite compiler.
 
 ```bash
-$ gcc newton_rasp.c -o newton_r -lm
+$ gcc newton_rasp.c -o newton.o -lm
 ```
 **Note:** you may need to use -lm to include the <math.h> header file.
+
+In the case of python just, 
+
+```bash
+$ python3 <algorithm>.py
+```
 
 ## Usage
 

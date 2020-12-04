@@ -22,10 +22,11 @@ x = sp.Symbol('x')
 ##################
 
 #fx = sp.cos(x)
-fx = math.e**x
+#fx = math.e**x
 #fx = sp.sin(x) + sp.cos(2*x)
-max_iter = 5
-x0 = 0
+fx = 2*sp.cos(2*x) + sp.sin(2*x)
+max_iter = 4
+x0 = 0.5
 
 ###############
 ## Algorithm #
@@ -36,10 +37,10 @@ for i in range(0,max_iter):
     feval = fxprime.evalf(subs={x: x0})
     fact = math.factorial(i)
     wx = (x-x0)**i
-    pn += (feval/fact)*(wx) 
+    pn += (feval/fact)*(wx)
     fxprime = fx.diff(x)
     fx = fxprime
     #print(pn)
 
 
-print(pn)
+print(sp.simplify(pn))
